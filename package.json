@@ -1,0 +1,20 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "Monorepo of me",
+  "scripts": {},
+  "keywords": [],
+  "author": "Muhammad Rayhan Hamada Budiman <rayhanhamada1999@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayhanHamada/portofolio"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RayhanHamada/portofolio/issues"
+  },
+  "homepage": "https://github.com/RayhanHamada/portofolio#readme",
+  "devDependencies": {
+    "turbo": "^1.10.7"
+  }
+}
