@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "name": "root",
+            "path": ".."
+        },
+        {
+            "name": "web-portofolio",
+            "path": "../apps/web-portofolio"
+        },
+        {
+            "name": "resume",
+            "path": "../packages/resume"
+        }
+    ],
+    "settings": {
+        "editor.formatOnSave": true
+    },
+}
