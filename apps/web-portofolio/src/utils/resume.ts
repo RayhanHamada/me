@@ -10,14 +10,10 @@ export async function getResumeMarkdown() {
   const [fetchMarkdown] = await Promise.allSettled([fetch(markdownResumeURL)]);
 
   if (fetchMarkdown.status === 'rejected') {
-    return {
-      markdown: '',
-    };
+    return '';
   }
   const rawText = await fetchMarkdown.value.text();
   const markdown = marked(rawText);
 
-  return {
-    markdown,
-  };
+  return markdown;
 }
