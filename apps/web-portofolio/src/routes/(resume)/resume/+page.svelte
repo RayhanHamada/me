@@ -1,13 +1,11 @@
 <script lang="ts">
-  import { marked } from 'marked';
-
   export let data;
 </script>
 
 <div>
   <h1>🚧🚧🚧 WIP 🚧🚧🚧</h1>
   <div class="preview">
-    {@html marked(data.markdown)}
+    {@html data.markdown}
   </div>
 </div>
 

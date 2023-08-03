@@ -1,3 +1,9 @@
+import { marked } from 'marked';
+import { gfmHeadingId } from 'marked-gfm-heading-id';
+import { mangle } from 'marked-mangle';
+
+marked.use(mangle(), gfmHeadingId());
+
 export async function load() {
   //   get markdown resume
   const [fetchMarkdown] = await Promise.allSettled([
@@ -11,7 +17,8 @@ export async function load() {
       markdown: '',
     };
   }
-  const markdown = await fetchMarkdown.value.text();
+  const rawText = await fetchMarkdown.value.text();
+  const markdown = marked(rawText);
 
   return {
     markdown,
