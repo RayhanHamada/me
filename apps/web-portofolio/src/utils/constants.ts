@@ -39,3 +39,6 @@ export const links = [
 
 export const cvLink =
   'https://1drv.ms/b/s!AkHRxXV_ERCXihIgArOYtt3qfha9?e=aCYYs1';
+
+export const markdownResumeURL =
+  'https://raw.githubusercontent.com/RayhanHamada/me/main/packages/resume/readme.md';
