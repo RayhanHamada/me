@@ -13,7 +13,7 @@
   Software Engineering Field. He also loves open-source projects and has
   contributed to a couple of small open-source projects on Github. He is also
   very eager to keep himself updated on application development space. He can
-  work well both as an sindividual or a team player, and coordinate a small team
+  work well both as an individual or a team player, and coordinate a small team
   if needed.
 </p>
 
