@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cvLink, deviconLogos, links } from 'src/utils/constants';
+  import { cvLink, deviconLogos, links } from "src/utils/constants";
 
   export let data;
 </script>
@@ -14,9 +14,7 @@
   <p class="text-[#e41749] md:text-2xl lg:text-5xl font-bold tracking-wide">
     Muhammad Rayhan Hamada Budiman
   </p>
-  <p class="text-xs md:text-base">
-    Student. Programmer. <strike>Procrastinator</strike>. Web Developer.
-  </p>
+  <p class="text-xs md:text-base">Student. Programmer. Web Developer.</p>
   <hr class="h-[1px] w-[80%] bg-[#e41749] border-0" />
   <p class="text-lg font-bold">I'm quite familiar with these technologies</p>
   <div class="flex flex-row space-x-4">
