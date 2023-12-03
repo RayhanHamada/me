@@ -4,24 +4,6 @@ const mapToDeviconPath = (icon: string) => {
   return `${first}/${first}-${last.join('-')}`;
 };
 
-/**
- * @see https://devicon.dev/
- */
-export const deviconLogos = [
-  'html5-original',
-  'css3-original',
-  'typescript-original',
-  'javascript-original',
-  'react-original',
-  'dart-original',
-  'flutter-original',
-  'npm-original-wordmark',
-  'yarn-original',
-  'postgresql-original',
-  'googlecloud-original',
-  'git-original',
-].map(mapToDeviconPath);
-
 export const links = [
   {
     link: 'https://github.com/RayhanHamada',

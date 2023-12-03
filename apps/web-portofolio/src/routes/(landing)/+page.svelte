@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cvLink, deviconLogos, links } from 'src/utils/constants';
+  import { cvLink, links } from 'src/utils/constants';
 
   export let data;
 </script>
@@ -15,17 +15,6 @@
     Muhammad Rayhan Hamada Budiman
   </p>
   <p class="text-xs md:text-base">Student. Programmer. Web Developer.</p>
-  <hr class="h-[1px] w-[80%] bg-[#e41749] border-0" />
-  <p class="text-lg font-bold">I'm quite familiar with these technologies</p>
-  <div class="flex flex-row space-x-4">
-    {#each deviconLogos as devLogos}
-      <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{devLogos}.svg"
-        alt={devLogos}
-        class="h-[25px] md:h-[45px]"
-      />
-    {/each}
-  </div>
 
   <p class="text-lg font-bold">You can find me on these links</p>
   <div class="flex flex-row space-x-4">

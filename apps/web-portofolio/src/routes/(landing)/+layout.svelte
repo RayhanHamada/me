@@ -5,7 +5,6 @@
   import Main from 'src/layouts/Main.svelte';
 </script>
 
-<Header />
 <Main>
   <slot />
 </Main>
