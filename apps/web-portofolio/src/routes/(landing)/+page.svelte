@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cvLink, deviconLogos, links } from "src/utils/constants";
+  import { cvLink, deviconLogos, links } from 'src/utils/constants';
 
   export let data;
 </script>

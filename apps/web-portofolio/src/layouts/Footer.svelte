@@ -1,5 +1,5 @@
 <footer
-  class="w-full flex flex-col items-center bg-my-red pt-20 pb-1 pl-15 md:px-15 "
+  class="w-full flex flex-col items-center bg-my-red pt-20 pb-1 pl-15 md:px-15"
 >
   <p class="text-[#e41749] text-center text-xs">
     <a href="/" class="underline"> This Website </a>{' '}
