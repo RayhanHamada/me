@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cvLink, links } from 'src/utils/constants';
+  import { CVURL, links } from 'src/utils/constants';
 
   export let data;
 </script>
@@ -13,22 +13,18 @@
   <p class="text-white md:text-2xl font-bold text-center">
     Muhammad Rayhan Hamada Budiman
   </p>
-  <p class="text-xs md:text-base">Student. Programmer. Web Developer.</p>
+  <p class="text-xs md:text-base">Student - Software Engineer - Programmer</p>
   <div class="flex flex-row space-x-4">
     {#each links as lo}
       <a href={lo.link} target="_blank" rel="noreferrer">
-        <img
-          class="h-[25px] md:h-[45px]"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{lo.logo}.svg"
-          alt={lo.logo}
-        />
+        <img class="h-[25px] md:h-[45px]" src={lo.logo} alt={lo.logo} />
       </a>
     {/each}
   </div>
   <a
-    href={cvLink}
+    href={CVURL}
     target="_blank"
     rel="noreferrer"
-    class="font-bold underline underline-offset-4">CV</a
+    class="font-bold underline underline-offset-4">My CV</a
   >
 </div>
