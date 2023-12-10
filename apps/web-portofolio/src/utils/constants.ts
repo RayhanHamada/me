@@ -1,43 +1,18 @@
-const mapToDeviconPath = (icon: string) => {
-  const [first, ...last] = icon.split('-');
-
-  return `${first}/${first}-${last.join('-')}`;
-};
-
-/**
- * @see https://devicon.dev/
- */
-export const deviconLogos = [
-  'html5-original',
-  'css3-original',
-  'typescript-original',
-  'javascript-original',
-  'react-original',
-  'dart-original',
-  'flutter-original',
-  'npm-original-wordmark',
-  'yarn-original',
-  'postgresql-original',
-  'googlecloud-original',
-  'git-original',
-].map(mapToDeviconPath);
-
 export const links = [
   {
     link: 'https://github.com/RayhanHamada',
-    logo: 'github-original',
+    logo: 'github/github-original',
   },
   {
     link: 'https://www.linkedin.com/in/muhammad-rayhan-hamada-budiman-033021194/',
-    logo: 'linkedin-original',
+    logo: 'linkedin/linkedin-original',
   },
-].map((e) => {
-  e.logo = mapToDeviconPath(e.logo);
+].map((e) => ({
+  ...e,
+  logo: `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${e.logo}.svg`,
+}));
 
-  return e;
-});
-
-export const cvLink =
+export const CVURL =
   'https://1drv.ms/b/s!AkHRxXV_ERCXihIgArOYtt3qfha9?e=aCYYs1';
 
 export const markdownResumeURL =
