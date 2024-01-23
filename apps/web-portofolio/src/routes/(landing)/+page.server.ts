@@ -1,7 +1,7 @@
 import octokit from 'src/utils/octokit';
 
 export async function load() {
-  const avatarURL = octokit.rest.users
+  const avatarURL = await octokit.rest.users
     .getByUsername({
       username: 'RayhanHamada',
     })
