@@ -17,3 +17,5 @@ export const CVURL =
 
 export const markdownResumeURL =
   'https://raw.githubusercontent.com/RayhanHamada/me/main/packages/resume/readme.md';
+
+export const avatarURL = 'https://avatars.githubusercontent.com/u/40117807?v=4';

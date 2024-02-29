@@ -1,12 +1,10 @@
 <script lang="ts">
-  import { CVURL, links } from 'src/utils/constants';
-
-  export let data;
+  import { CVURL, avatarURL, links } from 'src/utils/constants';
 </script>
 
 <div class="w-full flex flex-col items-center space-y-4 lg:px-10">
   <img
-    src={data.avatarURL}
+    src={avatarURL}
     alt="Foto Profil"
     class="w-[120px] max-w-[200px] h-auto rounded-full md:w-[200px]"
   />
