@@ -1,7 +1,7 @@
 <script>
-  import 'src/app.css';
-  import Main from 'src/layouts/Main.svelte';
-  import { avatarURL } from 'src/utils/constants';
+  import "src/app.css";
+  import Main from "src/layouts/Main.svelte";
+  import { avatarURL } from "src/utils/constants";
 </script>
 
 <svelte:head>

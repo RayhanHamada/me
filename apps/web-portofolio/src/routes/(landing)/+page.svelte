@@ -1,12 +1,14 @@
 <script lang="ts">
-  import { CVURL, avatarURL, links } from 'src/utils/constants';
+  import { CVURL, avatarURL, links } from "src/utils/constants";
 </script>
 
 <div class="w-full flex flex-col items-center space-y-4 lg:px-10">
   <img
     src={avatarURL}
     alt="Foto Profil"
-    class="w-[120px] max-w-[200px] h-auto rounded-full md:w-[200px]"
+    width="200"
+    height="200"
+    class="w-[120px] rounded-full md:w-[200px]"
   />
   <p class="text-white md:text-2xl font-bold text-center">
     Muhammad Rayhan Hamada Budiman
@@ -15,7 +17,13 @@
   <div class="flex flex-row space-x-4">
     {#each links as lo}
       <a href={lo.link} target="_blank" rel="noreferrer">
-        <img class="h-[25px] md:h-[45px]" src={lo.logo} alt={lo.logo} />
+        <img
+          width="25"
+          height="25"
+          class="size-[25px] md:size-[45px]"
+          src={lo.logo}
+          alt={lo.logo}
+        />
       </a>
     {/each}
   </div>
